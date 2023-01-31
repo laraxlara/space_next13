@@ -1,12 +1,27 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
+import Hero from '@/sections/Hero'
+import About from '@/sections/About'
+import Text from '@/sections/Text'
+import Cards from '@/sections/Cards'
+import Planets from '@/sections/Planets'
+import Prize from '@/sections/Prize'
 import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Hero />
+      <About />
+
+      <Cards />
+      <Planets />
+      <Prize />
+
+      {/* <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -85,7 +100,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }

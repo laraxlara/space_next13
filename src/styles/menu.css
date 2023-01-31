@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@300&display=swap');
+
+.menu {
+    height: 100vh;
+    background: linear-gradient(217deg, rgba(4, 0, 37, 1), rgba(0, 0, 0, 1) 90%),
+    linear-gradient(127deg, rgba(0, 12, 28, 1), rgba(0, 14, 53, 1) 90%),
+    linear-gradient(336deg, rgba(0, 0, 31, 1), rgba(0, 0, 28, 1) 90%);
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.menu p {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
