@@ -20,7 +20,7 @@ const Cards = () => {
             className='2xl:max-w-[1280px] w-full mx-auto flex flex-col'>
                 <Typing title="| Learning about space is fun" textStyles="text-center" />
                 <AnimatedTitle title={<>Choose the topic you want <br className="md:block hidden" /> to explore</>} />
-                <div className="mt-[150px] flex lg:flex-row sm:flex-col min-h-[70vh] gap-5">
+                <div className="mt-[150px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
                     {spaceTopics.map((topic, index) => {
                         return (
                             <Card
